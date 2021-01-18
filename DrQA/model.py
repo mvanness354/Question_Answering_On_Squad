@@ -1,3 +1,10 @@
+import torch
+import torch.nn as nn
+from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
+import numpy as np
+
+
+
 """
 Question Answering Model based off of the DrQA system presented in
 https://arxiv.org/pdf/1704.00051.pdf
