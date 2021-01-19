@@ -1,0 +1,8 @@
+torch
+torchtext
+transformers
+numpy
+tqdm
+pandas
+spacy
+nltk
